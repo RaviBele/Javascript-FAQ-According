@@ -55,6 +55,18 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```js
+const qas = document.querySelectorAll('.qa')
+
+const displayAnswerFunc = function displayAnswer(questionPlusSign, answer) {
+    if (answer.style.display == '') {
+        questionPlusSign.querySelector('img').src = 'assets/images/icon-minus.svg'
+        answer.style.display = 'block';
+    } else {
+        answer.style.display = '';
+        questionPlusSign.querySelector('img').src = 'assets/images/icon-plus.svg'
+    }
+}
+
 qas.forEach(qa => {
     let questionLink = qa.querySelector('.question h4')
     let questionPlusSign = qa.querySelector('.question .plus')
