@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/RaviBele/Javascript-FAQ-According)
-- Live Site URL: [Add live site URL here](https://wonderful-sawine-b77f41.netlify.app/)
+- Live Site URL: [Netlify](https://wonderful-sawine-b77f41.netlify.app/)
 
 ## My process
 
