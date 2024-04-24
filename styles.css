@@ -48,8 +48,8 @@ article {
 }
 
 .heading h2 {
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 3.5rem;
+    font-weight: 800;
 }
 
 .qa {
@@ -62,7 +62,7 @@ article {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 1rem;
+    padding-block: 0.7rem;
 }
 
 .question h4 {
